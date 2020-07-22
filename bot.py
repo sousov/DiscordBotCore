@@ -148,7 +148,7 @@ async def _unmute_(ctx, member:discord.Member):
 # Запуск
 client.run(settings['token'])
 
-
+# Команды модерации:
 
 # @client.command(aliases=['кик', 'kick']) 
 # async def _kick(ctx, member:discord.Member, *, reason=None):
